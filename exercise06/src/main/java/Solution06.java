@@ -13,14 +13,16 @@
 import java.util.Scanner;
 import java.time.Year;
 public class Solution06 {
-    static short getUserInput(String prompt){
+    short getUserInput(String prompt){
         Scanner input = new Scanner(System.in);
         System.out.println(prompt);
         return input.nextShort();
     }
     public static void main(String []args){
-        short age = getUserInput("what is your current age?");
-        short retirementAge = getUserInput("At what age do you want to retire?");
+        Solution06 solution = new Solution06();
+
+        short age = solution.getUserInput("what is your current age?");
+        short retirementAge = solution.getUserInput("At what age do you want to retire?");
         int year = Year.now().getValue();
         int timeLeft = (retirementAge - age);
         System.out.printf("You have %d years left until you can retire %nIt's %d, so you can retire in %d%n", timeLeft, year, (year+timeLeft));

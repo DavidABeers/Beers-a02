@@ -15,18 +15,18 @@
 
 import java.util.Scanner;
 public class Solution07 {
-    private static float getDistance(String prompt){
+    private float getDistance(String prompt){
         Scanner input = new Scanner(System.in);
         System.out.println(prompt);
         float length = input.nextFloat();
-        input.close();
         return length;
     }
 
     public static void main(String []args){
+        Solution07 distance = new Solution07();
         final double CONVERSION = 0.09290304;
-        float length = getDistance("Enter length of the room in feet");
-        float width = getDistance("Enter width of the room in feet");
+        float length = distance.getDistance("Enter length of the room in feet");
+        float width = distance.getDistance("Enter width of the room in feet");
         float areaFeet = length * width;
         double areaMeters = areaFeet * CONVERSION;
         System.out.printf("Area of the room is%n%.3f square feet%n%.3f square meters", areaFeet, areaMeters);
