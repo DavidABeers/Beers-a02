@@ -1,0 +1,20 @@
+
+R
+java:S1117"<Rename "username" which hides the field declared at line 20.(™ä°­
+C
+java:S1481"-Remove this unused "username" local variable.(™ä°­
+R
+java:S1117"<Rename "password" which hides the field declared at line 21.(øŸÔ×
+C
+java:S1481"-Remove this unused "password" local variable.(øŸÔ×
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+Y
+java:S1854)"CRemove this useless assignment to local variable "enteredUsername".(Ğ›íù
+J
+java:S1481)"4Remove this unused "enteredUsername" local variable.(Ğ›íù
+M	java:S106,"9Replace this use of System.out or System.err by a logger.(¯áh
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(øäš¼øÿÿÿÿ
+B
+java:S1068",Remove this unused "username" private field.(‘ó¹²
+0
+java:S1220""Move this file to a named package.

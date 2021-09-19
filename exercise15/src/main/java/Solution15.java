@@ -3,8 +3,6 @@
  *  Copyright 2021 David Beers
  */
 
-import java.util.Scanner;
-
 /*
     make an instance called "user" which stores a username and password
     prompt for and store username from the user
@@ -15,6 +13,9 @@ import java.util.Scanner;
     else
         print "I don't know you"
 *   */
+
+import java.util.Scanner;
+
 public class Solution15 {
     private String username;
     private String password;
@@ -45,6 +46,7 @@ public class Solution15 {
         else{
             System.out.println("I don't know you.");
         }
+
 
     }
 }

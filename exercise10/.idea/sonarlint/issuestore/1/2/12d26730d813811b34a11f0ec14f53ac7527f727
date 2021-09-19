@@ -1,0 +1,9 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+S
+java:S1854"">Remove this useless assignment to local variable "item3Price".(Œ¦á7
+D
+java:S1481""/Remove this unused "item3Price" local variable.(Œ¦á7
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(‡ €…þÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
